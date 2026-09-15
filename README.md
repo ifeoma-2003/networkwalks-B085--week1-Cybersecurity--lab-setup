@@ -112,8 +112,10 @@ DHCP:         Enabled
 IPv6:         Disabled
 
 
-A **NAT Network** was selected to establish a controlled virtual networking environment in which multiple lab machines can communicate with one another while retaining controlled outbound connectivity.
-This architecture provides the isolated yet interconnected environment required for simulating realistic attacker target interactions in subsequent cybersecurity exercises.
+
+A **NAT Network** was selected to establish a controlled virtual networking environment because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
+This provides isolated yet interconnected environment required for simulating realistic attacker target interaction.
+
 ---
 
 ## Step 4. Import Kali Linux
