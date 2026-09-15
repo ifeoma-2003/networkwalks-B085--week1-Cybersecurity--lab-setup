@@ -111,7 +111,7 @@ IPv4 Prefix:  10.0.0.0/24
 DHCP:         Enabled
 IPv6:         Disabled
 
-![](2 Screenshot.png)
+
 
 A **NAT Network** was selected to establish a controlled virtual networking environment because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 This provides isolated yet interconnected environment required for simulating realistic attacker target interaction.
