@@ -110,7 +110,9 @@ Network Name: NatNetwork
 IPv4 Prefix:  10.0.0.0/24
 DHCP:         Enabled
 IPv6:         Disabled
+
 ![](Screenshot 2026-09-15 193048.png)
+
 A **NAT Network** was selected to establish a controlled virtual networking environment in which multiple lab machines can communicate with one another while retaining controlled outbound connectivity.
 This architecture provides the isolated yet interconnected environment required for simulating realistic attacker target interactions in subsequent cybersecurity exercises.
 ---
