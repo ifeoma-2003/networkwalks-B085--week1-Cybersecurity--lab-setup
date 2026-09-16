@@ -244,33 +244,33 @@ The most important concepts I learned include:
 
 ### 1. Virtualization Fundamentals
 
-I gained a practical understanding of how VirtualBox can be used to create and manage isolated virtual machines for cybersecurity experimentation.
+I developed a practical understanding of virtualization and how VirtualBox can be used to create and manage virtual machines for cybersecurity experimentation. I also learned how virtualization allows security tools and operating systems such as Kali Linux to operate within a controlled environment without directly modifying the host. 
 
 ### 2. Virtual Machine Configuration
 
-I learned how to import, configure, start, stop, and manage a Kali Linux virtual machine , including understanding the roles of .vbox configuration and.vdi virtual disk files.  and verify IPv4 addressing, subnet masks, gateways, and DNS settings in Kali Linux.
+I learned how to import, configure, start, stop, and manage a Kali Linux virtual machine. I also, became familiar with the roles of .vbox configuration and.vdi virtual disk files as well as the importance of allocating appropriate system resources such as memory and network adapters.  
 
 ### 3. Virtual Networking
 
-I developed an understanding of NAT Networks and how they provide a controlled environment where multiple virtual machines can communicate while maintaining outbound network connectivity. 
+I gained a better understanding of NATNetwork and how they can provide a controlled networking environment for multiple virtual machines. I learned how IP addresses, subnet masks, default gateways, DNS servers, and network interfaces work together to establish communication within a virtual laboratory. 
 
 ### 4. Technical Troubleshooting
 
-The setup strengthened my ability to diagnose configuration errors systematically rather than relying solely on on trial and error.
+One of the most valuable lessons from this project was learning to troubleshoot technical problems systematically. I encountered issues involving VirtualBox installation, hardware virtualization, and Kali Linux network connectivity. Resolving these issues required identifying the source of each problem, applying the appropriate configuration change, and verifying the result. 
 
 ### 5. Cybersecurity Lab Preparation:
 
-I gained a clearer understanding of how virtualization and network configuration form the foundation for building an isolated environment for future attacker target cybersecurity exercises.
+I learned that a reliable cybersecurity laboratory begins with a properly configured virtual infrastructure. Establishing the virtual machine, network, addressing scheme, and recovery point provides a foundation for future activities such as reconnaissance, network scanning, vulnerability assessment, and other authorized security testing exercises.  
 
 ### 6.Documentation:
 
-I learned the importance of recording configuration decisions, challenges, solutions, and technical commands used throughout the lab, making the process easier to review, reproduce, and troubleshoot.
+I learned the importance of documenting configuration decisions, commands, challenges, troubleshooting steps, and verification results. Clear documentation makes a technical environment easier to understand, reproduce, maintain, and troubleshoot.
 
 ---
 
 # Security & Ethical Use
 
-This laboratory is intended strictly for education purposes only.
+This laboratory is intended strictly for education purposes and authorized security testing. And security tools or techniques used within the lab should only be applied to systems that are owned by the user or for which explicit permission has been granted.
 
 ---
 
