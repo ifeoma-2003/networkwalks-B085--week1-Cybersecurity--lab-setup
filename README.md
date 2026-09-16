@@ -19,7 +19,6 @@
   <img src="https://img.shields.io/badge/Ethical%20Hacking-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
   <img src="https://img.shields.io/badge/Waqas%20Karim%20CCIE-C00000?style=flat-square" />
 </p>
----
 
 ##  Project Overview
 
@@ -29,7 +28,8 @@ The purpose of the lab is to create a controlled environment where cybersecurity
 
 The lab is configured on a private virtual network so that additional machines can be added later and used as targets for authorized security testing.
 
----##  Objectives
+---
+##  Objectives
 
 The main objectives of this project are to:
 
@@ -91,7 +91,7 @@ Additional target machines can be added to the same virtual network in future pr
 
 #  Lab Setup Procedure
 
-##Step 1. Install 7-Zip
+## Step 1. Install 7-Zip
 
 7-Zip was installed to extract the Kali Linux virtual-machine package, which may be distributed as a `.7z` archive.
 
@@ -99,13 +99,13 @@ Additional target machines can be added to the same virtual network in future pr
 
 ---
 
-##Step 2. Install VirtualBox
+## Step 2. Install VirtualBox
 
 VirtualBox was installed as the hypervisor.
 
 ---
 
-##Step 3. Create the NAT Network
+## Step 3. Create the NAT Network
 
 A dedicated NAT Network was created in VirtualBox.
 
@@ -119,11 +119,11 @@ IPv6:         Disabled
 
 
 A **NAT Network** was selected to establish a controlled virtual networking environment because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
-This provides isolated yet interconnected environment required for simulating realistic attacker target interaction.
+This provides an isolated, yet interconnected environment required for simulating realistic attacker-target interaction.
 
 ---
 
-##Step 4. Import Kali Linux
+## Step 4. Import Kali Linux
 
 The Kali Linux virtual machine was downloaded from the official Kali Linux website and imported into VirtualBox.
 
@@ -142,11 +142,10 @@ The VM was allocated:
 RAM: 2048 MB
 ```
 ![](https://github.com/ifeoma-2003/networkwalks-B085--week1-Cybersecurity--lab-setup/blob/main/4%20screenshot.png)
-A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
 ---
 
-##Step 5. Configure Kali Linux Network
+## Step 5. Configure Kali Linux Network
 
 The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
 
@@ -163,9 +162,8 @@ A consistent IP address makes it easier to document the lab and reference the Ka
 
 ![](https://github.com/ifeoma-2003/networkwalks-B085--week1-Cybersecurity--lab-setup/blob/main/screenshot%203.png)
 
----
 
-##step 6. Create a Clean VM Snapshot
+## step 6. Create a Clean VM Snapshot
 
 After completing the initial configuration, a VirtualBox snapshot was created.
 
@@ -211,15 +209,15 @@ Documenting problems is an important part of the project.
 
 ## Problem 1. VirtualBox Installation Issue
 
-VirtualBox initially required additional Microsoft Visual C++ components before installation could proceed properly.n.
+VirtualBox initially required additional Microsoft Visual C++ components before installation could proceed properly.
 
 Resolution: The required Visual C++ components were installed, after which VirtualBox installed and launched successfully.
 
-## Problem 2. Kali Linux Virtualiztion Error
+## Problem 2. Kali Linux Virtualization Error
 
-Kali Linux initially failed to start because hardware virtualization was disabled.T
+Kali Linux initially failed to start because hardware virtualization was disabled.
 
-Resolution:Virtualization Technology(VTx) was enabled in the system BIOS, allowing Kli Linux to boot successfully.
+Resolution: Virtualization Technology(VTx) was enabled in the system BIOS, allowing Kali Linux to boot successfully.
 1. Restarting the computer.
 2. Entering BIOS/UEFI settings.
 3. Enabling Intel VT-x / hardware virtualization.
@@ -232,12 +230,15 @@ Resolution:Virtualization Technology(VTx) was enabled in the system BIOS, allowi
 The Kali Linux  Ethernet interface initially appeared disconnected, preventing the virtual machine from accessing the network.
 
 Resolution: The Ethernet interface was manually enabled using the command:
+```bash
 sudo ifconfig eth0 up
-This brought the interface up and restored network connectivity.
 
-## What I Learned##
+This brought the interface up and restored network configuration to be checked again.
 
-Through this project, I learned how to create and configure a virtual environment for cybersecurity practice.
+```
+## What I Learned ##
+
+This project gave me practical experience in building and documenting a controlled virtual environment for cybersecurity practice. Beyond installing the required software ,i learned how different  components of a virtual laboratory work together to provide a functional and reproducible security testing environment.
 
 The most important concepts I learned include:
 
@@ -284,7 +285,7 @@ This laboratory is intended strictly for education purposes only.
 ## Author
 
 **Chibueze Ifeoma Increase**\
-Cybersecurity Professional B085
+Cybersecurity Learner| NetworkWalks B085
 
 LinkedIn: (https://www.linkedin.com/in/ifeoma-chibueze-9774a4406)
 
