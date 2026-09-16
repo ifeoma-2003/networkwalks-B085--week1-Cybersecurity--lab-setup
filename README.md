@@ -65,7 +65,7 @@ It can be used for activities such as:
 
 ## Lab Architecture
 
-![]()
+![](https://github.com/ifeoma-2003/networkwalks-B085--week1-Cybersecurity--lab-setup/blob/main/Screenshot%202026-09-16%20143821.png)
 
 Additional target machines can be added to the same virtual network in future projects.
 
@@ -235,7 +235,7 @@ Resolution: The Ethernet interface was manually enabled using the command:
 sudo ifconfig eth0 up
 This brought the interface up and restored network connectivity.
 
-##What I Learned##
+## What I Learned##
 
 Through this project, I learned how to create and configure a virtual environment for cybersecurity practice.
 
@@ -275,9 +275,10 @@ This laboratory is intended strictly for education purposes only.
 
 ## Tools & Resources
 
-**7-Zip:** [https://7-zip.org/download.html](https://7-zip.org/download.html)
+- **7-Zip:** [https://7-zip.org/download.html](https://7-zip.org/download.html)
 - **VirtualBox:** [https://virtualbox.org/wiki/Downloads](https://virtualbox.org/wiki/Downloads)
 - **Kali Linux:** [https://kali.org/get-kali](https://kali.org/get-kali)
+
 ---
 
 ## Author
