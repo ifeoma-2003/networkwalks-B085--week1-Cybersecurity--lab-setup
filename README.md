@@ -62,7 +62,7 @@ It can be used for activities such as:
 ⚠️ **Important:** This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
 
 ---## Lab Architecture
-![](VirtualBox_kali-linux-2026.2-virtualbox-amd64_15_09_2026_19_04_14.png)
+![](![](1-screenshot-title-image.png)
 Additional target machines can be added to the same virtual network in future projects.
 
 ---
@@ -155,7 +155,7 @@ DNS: 8.8.8.8
 
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
-![](
+![](https://github.com/ifeoma-2003/networkwalks-B085--week1-Cybersecurity--lab-setup/blob/main/screenshot%203.png)
 
 ---
 
