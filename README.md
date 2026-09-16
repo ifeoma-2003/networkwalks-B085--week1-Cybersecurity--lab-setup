@@ -61,8 +61,12 @@ It can be used for activities such as:
 
 ⚠️ **Important:** This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
 
----## Lab Architecture
-![](![](1-screenshot-title-image.png)
+---
+
+## Lab Architecture
+
+![]()
+
 Additional target machines can be added to the same virtual network in future projects.
 
 ---
@@ -137,7 +141,7 @@ The VM was allocated:
 ```text
 RAM: 2048 MB
 ```
-![](
+![](https://github.com/ifeoma-2003/networkwalks-B085--week1-Cybersecurity--lab-setup/blob/main/4%20screenshot.png)
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
 ---
